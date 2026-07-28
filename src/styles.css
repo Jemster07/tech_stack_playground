@@ -1,8 +1,31 @@
-body{
+body {
     font-family: sans-serif;
 }
 
-.headerContainer{
+.headerContainer {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.commonForm {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+.formInput {
+    height: 35px;
+    margin-bottom: 20px;
+    border: 1px solid deepskyblue;
+    padding-left: 15px;
+    color: deepskyblue;
+}
+
+.formButton {
+    height: 35px;
+    border: 1px solid deepskyblue;
+    color: white;
+    background-color: deepskyblue;
+    cursor: pointer;
 }
