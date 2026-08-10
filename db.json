@@ -1,0 +1,17 @@
+{
+  "seller": [
+    {
+      "name": "Emelie Kerek",
+      "email": "emelie.kerek@seller.com",
+      "password": "test123",
+      "id": "09Km6wCFh7Y"
+    },
+    {
+      "name": "Bob Marley",
+      "email": "bob1@seller.com",
+      "password": "test456",
+      "id": "0XkhzuiIe-M"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
