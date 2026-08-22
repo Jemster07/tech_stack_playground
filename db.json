@@ -23,6 +23,24 @@
       "password": "theonering",
       "email": "hobbit1@seller.com",
       "id": "0dz3lIyOMkM"
+    },
+    {
+      "name": "Fuzzy Wuzzy",
+      "password": "fuzz123",
+      "email": "thefuzz@seller.com",
+      "id": "ArJqcKrY3RU"
+    },
+    {
+      "name": "heraldaPi",
+      "password": "Miiiiiiiii",
+      "email": "hPi@seller.com",
+      "id": "yW4ln_mo3UY"
+    },
+    {
+      "name": "Tatiana",
+      "password": "tit4tat",
+      "email": "tat@seller.com",
+      "id": "ZjE1Bt2JcRU"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

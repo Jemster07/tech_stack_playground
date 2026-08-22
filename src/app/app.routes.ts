@@ -1,10 +1,11 @@
 import { Routes } from '@angular/router';
+import { AuthGuard } from './auth-guard';
 import { Home } from './home/home';
-import { SellerAuth } from './seller-auth/seller-auth';
+import { SellerRegister } from './seller-register/seller-register';
 import { SellerHome } from './seller-home/seller-home';
 
 export const routes: Routes = [
   { path: '', component: Home },
-  { path: 'seller-auth', component: SellerAuth },
-  { path: 'seller-home', component: SellerHome }
+  { path: 'seller-register', component: SellerRegister },
+  { path: 'seller-home', canActivate: [AuthGuard], component: SellerHome }
 ];
